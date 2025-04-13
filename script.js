@@ -16,7 +16,7 @@ document.getElementById('form-agendamento').addEventListener('submit', async (e)
   
   if (resultado.ok) {
     const msg = `Olá, meu nome é ${nome} e gostaria de confirmar meu agendamento para ${data} às ${hora}.`;
-    const whatsappURL = `https://wa.me/55SEUNUMERO?text=${encodeURIComponent(msg)}`;
+    const whatsappURL = `https://wa.me/5521991520078?text=${encodeURIComponent(msg)}`;
     window.location.href = whatsappURL;
   } else {
     document.getElementById('mensagem').innerText = resultado.mensagem;
